@@ -6,6 +6,7 @@ import torch
 from torch.utils.data import Dataset
 
 
+# This is where we stored the npy files that are much too large to place on github
 parent_dir = "/scratch/cse692w25_class_root/cse692w25_class/oyadav/temp_extract/"
 
 mean = np.array([0.485, 0.456, 0.406])

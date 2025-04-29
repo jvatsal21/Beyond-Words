@@ -7,6 +7,7 @@ import os
 from openai import OpenAI
 import json
 
+# This is where we stored the npy files that are much too large to place on github
 parent_dir = "/scratch/cse692w25_class_root/cse692w25_class/oyadav/temp_extract/"
 
 # OpenAI client set up

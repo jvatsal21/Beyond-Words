@@ -76,9 +76,10 @@ def predict_score(image_path: str, text: str) -> float:
         )
     return out["preds"].cpu().item()
 
-# ─── Example Usage ─────────────────────────────────────────────────────────────
+# Example Usage 
 if __name__ == "__main__":
-    example_path = "/scratch/cse692w25_class_root/cse692w25_class/oyadav/temp_extract/"
+    #   This is where we stored the npy files that are much too large to place on github
+    parent_dir = "/scratch/cse692w25_class_root/cse692w25_class/oyadav/temp_extract/"
 
     ex = {
       "image": "EgoCOT_clear/EGO_2009.npy",
