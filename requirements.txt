@@ -2,3 +2,6 @@ git+https://github.com/huggingface/transformers
 qwen-vl-utils
 openai
 flash-attn
+torch
+pillow
+termcolor
