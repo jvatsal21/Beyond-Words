@@ -56,7 +56,18 @@ Our work aims to answer three research questions:
     pip install -r requirements.txt
     ```
 
-2. **Run Inference and Evaluation**
+2. **Set Up OpenAI API Key**
+
+    You need an OpenAI API key to run our framework.  
+    [Generate an API key here](https://platform.openai.com/account/api-keys) and export it as an environment variable:
+
+    ```bash
+    export OPENAI_API_KEY="your-api-key-here"
+    ```
+
+    (Or manually set it inside the notebook if preferred)
+
+3. **Run Inference and Evaluation**
 
     The main experiments and results are inside `Beyond_Words.ipynb`.
    
